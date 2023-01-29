@@ -12,7 +12,7 @@
 
 *     {
   box-sizing: border-box;
-}/* styling our overall page */
+}
 body     {
   background: #FFF;
  font-family: "Trirong", serif;
@@ -25,9 +25,9 @@ body   {
   border: 1px;
   line-height: 1;
   font-size: 20px;
+background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4));
 
 }
-/* styling our header */
 header   {
   background: #222;
   color: #FFF;
@@ -36,14 +36,19 @@ header   {
 footer  {
   background: #222;
   color: #FFF;
+width: 1200px;
   padding: 2px 3px;
 }
 nav     {
-  width: 2000px;
+  width: 1200px;
   display: inline-block;
   text-align: left;
 }
 
+.imgborder
+{
+border-radius: 50%;
+}
 nav ul   {
   list-style: none;
   margin: 0;
@@ -109,6 +114,84 @@ position: relative;
   50%  {color:#FF0099; left:200px; right:200px;}
   75%  {color:#FF00FF; top:0px; right:200px;}
   100% {color:#CC00FF; top:0px; right:0px;}
+}
+
+@media(max-width: 2000px) {
+    .div {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 1500px) {
+    .div {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 1200px) {
+    .div {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 1080px) {
+    .div {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 1000px) {
+    .div {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 900px) {
+    .div {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 700px) {
+    .div {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 800px) {
+    .div {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 500px) {
+    .div {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 600px) {
+    .div {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 300px) {
+    .div {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 200px) {
+    .div {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 100px) {
+    .div {
+        justify-content: center;
+    }
 }
 
 .boxm {
@@ -205,7 +288,9 @@ min-height: 1000px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.ls{
+letter-spacing: 3px;
+}
 
 @media only screen and (max-device-width: 1024px) {
   .parallax1, .parallax2, .parallax3 {
@@ -290,20 +375,15 @@ height: 50px;
 
 <header>
 
-        <!-- our main logo -->
-        <a id="logo" href="https://drive.google.com/file/d/1FKpggD7cVlqjthBhPkn5PFqgAtAL3lAK/view?usp=sharing">
-
-
-            <img src="https://drive.google.com/file/d/1FKpggD7cVlqjthBhPkn5PFqgAtAL3lAK/view?usp=sharing" alt="Sohel Ahammad" width="200px" height="200px">
-</a>
+       
 <div class="vr">
-          <h1 class="b">  &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp My Parallax Website</h1>
+          <h1 class="b"> <center> My Parallax Website</center></h1>
         </div>
 
         <!-- main navigation links -->
         <nav>
             <ul>
-                <li><a href="#"><abbr title="Sohel Ahammad">Home</abbr></a></li>
+                <li><a href="https://83adxl0dk3fxyrxinwdlcq.on.drv.tw/PORTFOLIO.html"><abbr title="Sohel Ahammad">Home</abbr></a></li>
                 <li><a href="#"><abbr title="Completed MCA">About</abbr></a></li>
                 <li><a href="https://www.linkedin.com/in/sohel-ahammad-6219a421a/"><abbr title="+917675911028">Contact</abbr></a></li>
                 <li><a href="#Down"><abbr title="GO TO DOWN">Social Media</abbr></a></li>
@@ -562,7 +642,7 @@ height: 50px;
 </main>
 </nav>
 
-</div>
+
 
 
 
@@ -578,9 +658,11 @@ height: 50px;
 
     <!-- the footer -->
     <footer>
-        <a href="https://drive.google.com/file/d/1tpwIjTInDJ3YkLqsH8QJCySTJHwFWe_Q/view?usp=sharing"><img src="https://drive.google.com/file/d/1tpwIjTInDJ3YkLqsH8QJCySTJHwFWe_Q/view?usp=sharing" alt="I am Sohel Ahammad" width="60px" height="90px"></a><br>
 <div id="Down">
+
 <center><h2>Contact Me</h2>
+<img src="https://raw.githubusercontent.com/Sohailahammmad/Portfolio/main/s8.jpg" alt="I am Sohel Ahammad" width="180px" height="130px"><br>
+
 	<a href="https://m.facebook.com/100052789565175/"><i class="fa fa-facebook"></i></a>
 	<a href="https://www.linkedin.com/mwlite/in/sohel-ahammad-6219a421a"><i class="fa fa-linkedin"></i></a>
 	<a href="https://www.instagram.com/sohel.ahammad.73/"><i class="fa fa-instagram"></i></a>
@@ -591,12 +673,12 @@ height: 50px;
 </div>
        <center>  
  <span>My Website Tells About Me How I am approched Movies and technology updates<br> 
-Copyright &copy; 2022-2060 </span>
+<p class="ls">Copyright &copy; 2022-2060 </p></span>
 <h5><a href="https://www.privacypolicygenerator.info/live.php?token=jlTTRrIQGPrboUt2XhFucQHqFar8rhON">Privacy Policy</a> | Cookies Policy | Terms of Use</h5></center>
     </footer>
 
 
-
+</div>
 
 
 
